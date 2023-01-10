@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V1", "V1", "{F7C04D29-5322-40A9-81EB-0EFEF37D6803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2", "V2", "{FA9C4570-F94D-4E11-9EE8-B9802F9FD559}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySql", "MySql", "{077C28AE-2BB4-47E1-BC37-C82AB30CE0C5}"
+	ProjectSection(SolutionItems) = preProject
+		V1\MySql\Massive_Inserts_MySql_V1.py = V1\MySql\Massive_Inserts_MySql_V1.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{1A10236D-0280-42C2-A12F-7F4472FFB8FB}"
+	ProjectSection(SolutionItems) = preProject
+		V1\SQLite\Massive_Inserts_Sqlite_V1.py = V1\SQLite\Massive_Inserts_Sqlite_V1.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{2E398AAF-E176-43B6-A6A0-63839B63C8FB}"
+	ProjectSection(SolutionItems) = preProject
+		V2\SQLite\Massive_Inserts_Sqlite_V2.py = V2\SQLite\Massive_Inserts_Sqlite_V2.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySql", "MySql", "{9F56DADF-87AB-49A6-A0EE-912938514E37}"
+	ProjectSection(SolutionItems) = preProject
+		V2\MySql\Massive_Inserts_MySql_V2.py = V2\MySql\Massive_Inserts_MySql_V2.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{077C28AE-2BB4-47E1-BC37-C82AB30CE0C5} = {F7C04D29-5322-40A9-81EB-0EFEF37D6803}
+		{1A10236D-0280-42C2-A12F-7F4472FFB8FB} = {F7C04D29-5322-40A9-81EB-0EFEF37D6803}
+		{2E398AAF-E176-43B6-A6A0-63839B63C8FB} = {FA9C4570-F94D-4E11-9EE8-B9802F9FD559}
+		{9F56DADF-87AB-49A6-A0EE-912938514E37} = {FA9C4570-F94D-4E11-9EE8-B9802F9FD559}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA06FD02-E6DA-4BC3-B55C-D4C9A9568DF4}
+	EndGlobalSection
+EndGlobal
